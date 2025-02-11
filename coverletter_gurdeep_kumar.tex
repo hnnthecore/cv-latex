@@ -1,0 +1,143 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+\input{constants/configurations.tex}
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+\definecolor{awesome}{HTML}{\COLOR}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{\HIGHLIGHT_TITLES}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\input{constants/personal-information.tex}
+% Available options: circle|rectangle,edge/noedge,left/right
+
+%\photo[right,rectangle,noedge]{./photo/photo.jpg}
+\name{\FIRST_NAME}{\LAST_NAME}
+\position{\POSITION}
+%\address{\ADRESS}
+\mobile{\MOBILE}
+\email{\EMAIL}
+\github{\GITHUB}
+\linkedin{\LINKEDIN}
+%\homepage{\HOMEPAGE}
+% \gitlab{\GITLAB}
+% \stackoverflow{\SO_ID}{\SO_NAME}
+% \twitter{\TWITTER}
+% \skype{\SKYPE}
+% \reddit{\REDDIT_ID}
+% \medium{\MEDIUM_ID}
+% \googlescholar{\GOOGLE_SCHOLAR_ID}{\GOOGLE_SCHOLAR_NAME}
+% \extrainfo{\EXTRA_INFO}
+
+\quote{\QUOTE}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Swisscom}
+  {Alte Tiefenaustrasse 6\\
+  3048 Ittigen\\}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Bewerbung als Network Operations Engineer}
+% How the letter is opened
+\letteropening{}
+% How the letter is closed
+\letterclosing{Freundliche Grüsse,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {\FIRST_NAME \LAST_NAME~~~·~~~Motivationsschreiben}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+	
+
+\lettersection{Über mich}
+
+Ich bin eine entschlossene und detailorientierte Person, die stets nach Präzision in allem strebt, was ich tue. Meine Leidenschaft für Technologie motiviert mich dazu, unzählige Stunden mit dem Studium, der Recherche und dem Erkunden neuer Technologien zu verbringen, um meine Neugier zu befriedigen. Ich habe ein tiefes Interesse daran, zu verstehen, wie Dinge funktionieren, was meine Liebe zum Problemlösen und zur Innovation antreibt. Ich tauche gerne in komplexe Herausforderungen ein, sei es beim Programmieren, im Systemdesign oder beim Erlernen neuer Technologien.
+
+Meine Entschlossenheit treibt mich nicht nur dazu an, Neues zu lernen, sondern die Themen, die mich interessieren, auch zu meistern. Ich bin fest davon überzeugt, dass lebenslanges Lernen der Schlüssel ist, und ich achte bewusst darauf, stets auf dem neuesten Stand der Trends in der Technologiebranche zu bleiben. Diese Einstellung hilft mir, anpassungsfähig zu bleiben und sowohl persönlich als auch beruflich kontinuierlich zu wachsen. Ich schätze die Zusammenarbeit mit Kollegen, um Ideen auszutauschen und gemeinsame Ziele zu erreichen. Mein Ziel ist es, meine technischen Fähigkeiten mit meiner Leidenschaft für Kreativität zu kombinieren, um an innovativen und bedeutsamen Projekten mitzuwirken.
+
+
+\lettersection{Was qualifiziert mich als Network Operations Engineer?}
+In den letzten Jahren habe ich mich intensiv mit Netzwerktechnik beschäftigt und grundlegende Kenntnisse über Protokolle wie TCP/IP, BGP, OSPF und HSRP aufgebaut. Dabei habe ich ein gutes Verständnis für die Funktionsweise von Switching auf Layer 2 und Layer 3 erlangt.
+Um meine Kenntnisse praktisch anzuwenden und zu vertiefen, baue ich aktuell mein eigenes Netzwerk-Labor mit physischer Hardware auf. Dazu gehören unter anderem zwei Cisco Router 2800, ein Cisco ASA 5510, zwei Layer-2-Switches Cisco Catalyst 2960, zwei Layer-3-Switches Catalyst 3750, ein Cisco WLC 2500 sowie drei Access Points. Dieses Labor hilft mir, die Grundlagen zu verstehen und praxisnah zu experimentieren.
+Aktuell bereite ich mich auf die CCNA-Zertifizierung von Cisco vor, die ich in den nächsten 7 bis 8 Monaten erfolgreich ablegen möchte. Ergänzend dazu verfüge ich über Kenntnisse in Python sowie praktische Erfahrung im Umgang mit Linux, was mir hilft, Netzwerksysteme besser zu verstehen und effizient zu nutzen.
+Auch wenn ich noch keine umfangreiche Praxiserfahrung habe, bringe ich eine große Lernbereitschaft, Leidenschaft für Netzwerktechnologien und den Willen mit, mich kontinuierlich weiterzuentwickeln. Ich bin motiviert, einen Beitrag zur Vision von Swisscom zu leisten und mich aktiv in die Betreuung und Weiterentwicklung von Netzwerklösungen einzubringen.
+
+
+
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

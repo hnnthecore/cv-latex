@@ -1,0 +1,40 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# PDF and other output files
+*.dvi
+*.ps
+
+# Editors and temporary files
+*.backup
+*.synctex
+*.bak
+*~
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# TexShop specific files
+*.texshop
+*.tps
+*.pdfsync
+
+# Kile specific files
+*.kilebackup
+
+# LyX backup files
+*.lyx~
